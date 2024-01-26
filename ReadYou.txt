@@ -8,6 +8,10 @@ Babel:
  - Babel core: lấy và phân tích mã nguồn output ra 1 số file
  - Babel preset env: bộ quy tắc giải thích cho babel về cú pháp ES6, ES7 cần tìm và làm thế nào chuyển thành ES5
  - Babel preset react: chuyển đổi code JSX(ReactJS) thành JSX
+CSS loader:
+ - css-loader: cho biết làm thế nào để hiểu được cú pháp css import.
+ - style-loader: nhận các css imports và thêm vào html.
+
 
 
 require CommonJS Đồng bộ Không Import một phần module	Khai báo module	Theo đường dẫn	

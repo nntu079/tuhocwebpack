@@ -1,0 +1,14 @@
+Webpack:
+ - Kết nối các module lại với nhau
+Loader: 
+ - Cho phép xử lý 1 module trước khi load vào (require, import) 
+ - Giúp biến đổi nhiều cú pháp JSX, ES6, CSS sang js thuần
+Babel:
+ - Babel loader: hướng dẫn babel biết được làm việc thế nào với Webpack
+ - Babel core: lấy và phân tích mã nguồn output ra 1 số file
+ - Babel preset env: bộ quy tắc giải thích cho babel về cú pháp ES6, ES7 cần tìm và làm thế nào chuyển thành ES5
+ - Babel preset react: chuyển đổi code JSX(ReactJS) thành JSX
+
+
+require CommonJS Đồng bộ Không Import một phần module	Khai báo module	Theo đường dẫn	
+import ES6 Bất đồng bộ Import một phần module Nhanh hơn require trong hầu hết các trường hợp  Khai báo module Theo tên, đường dẫn, hoặc module pattern
